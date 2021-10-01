@@ -13,15 +13,15 @@ After click "Start" button, system will random choose one person to first act.
 Before you move, you have to choose one color to represent what you are, and the below "king and queen" button will be actived, you can do something to your opponent now!!  
 
 * Spades
- * attack will be 1.5 time
+   * attack will be 1.5 time
 * Hearts
- * recover will be 1.5 time
+   * recover will be 1.5 time
 * Diamonds
- * attack will be 1.5 time at even turn
- * recover will be 1.5 time at odd turn
+   * attack will be 1.5 time at even turn
+   * recover will be 1.5 time at odd turn
 * Clubs
- * attack  will be 1.5 time at odd turn
- * recover will be 1.5 time at even turn
+   * attack  will be 1.5 time at odd turn
+   * recover will be 1.5 time at even turn
 
 ![image](https://user-images.githubusercontent.com/79491377/135619072-e55a608a-cf8b-4a61-a1db-4d3562b152d3.png)
 
