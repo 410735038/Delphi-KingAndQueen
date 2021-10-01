@@ -12,23 +12,33 @@ If every one are set, just click "確認" button then "Start" Button will be act
 After click "Start" button, system will random choose one person to first act.  
 Before you move, you have to choose one color to represent what you are, and the below "king and queen" button will be actived, you can do something to your opponent now!!  
 
+* Spades
+ * attack will be 1.5 time
+* Hearts
+ * recover will be 1.5 time
+* Diamonds
+ * attack will be 1.5 time at even turn
+ * recover will be 1.5 time at odd turn
+* Clubs
+ * attack  will be 1.5 time at odd turn
+ * recover will be 1.5 time at even turn
+
 ![image](https://user-images.githubusercontent.com/79491377/135619072-e55a608a-cf8b-4a61-a1db-4d3562b152d3.png)
 
 ### attack, recover, knight
+
 you can choose "attack", "recover", or "knight".  
 
 * attack
   *  attack your opponent
-  *  the attack value will be (attack + Weight / 2)
 * recover
-  *  recover your health  
-  *  the recover value will be (recover + Weight / 2)  
+  *  recover your health   
 * knight
   *   there are four knight to choose.  
-  *   Spades is just like attack, but will double.  
-  *   Hearts is recover, but will double.  
-  *   Diamonds not only attack but also recover, but attack value will higher than recover.  
-  *   Clubs not only attack but also recover, but recover value will higher than attack.  
+  *   Spades is just like attack, but value always be 15.  
+  *   Hearts is recover, but value always be 20.  
+  *   Diamonds not only attack but also recover, attack at even turn, recover at odd turn, value always be 10.  
+  *   Clubs not only attack but also recover,  attack at odd turn, recover at even turn, value always be 10.  
 
 ### rules
 It have three way to win.
